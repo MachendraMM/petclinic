@@ -18,6 +18,10 @@ spec:
     metadata:
       labels:
         app: petclinic-app
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/metrics"
+        prometheus.io/port: "8080"
     spec:
       containers:
       - name: petclinic-container
