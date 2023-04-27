@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: machendra1234/petclinicdemo
   tag: latest
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 nameOverride: ""
