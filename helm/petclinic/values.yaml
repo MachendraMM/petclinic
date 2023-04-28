@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: machendra1234/petclinicdemo
-  tag: 1
+  repository: rohith0718/petclinic
+  tag: latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
